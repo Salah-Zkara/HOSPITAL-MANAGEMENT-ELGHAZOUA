@@ -39,29 +39,42 @@ public class ConnectionAuth {
                 break;
             }
         }
+
         if (create == true) {
-            System.out.println("IN prt");
             mongoClient.getDatabase("Hospital").createCollection("Admins");
+            MongoCollection<Document> collection = mongoClient.getDatabase("Hospital").getCollection("Admins");
+            System.out.print("Enter UserName for admin account : ");
+            Document admin = new Document("UserName",Mysc.next());
+            System.out.print("Enter Password for admin account : ");
+            admin.put("Password",Mysc.next());
+            collection.insertOne(admin);
+            return true;
         }
-        System.out.println("befor");
         MongoCollection<Document> collection = mongoClient.getDatabase("Hospital").getCollection("Admins");
 
 
-        System.out.println(collection.find().);
-        System.out.println("after");
-        if (create == false){
+        try {
+            if (create == false){
 
-            Document Doc = collection.find().first();
-            if (Doc.containsKey("UserName") || Doc.containsKey("Password")) return true;
+                Document Doc = collection.find().first();
+                if (Doc.containsKey("UserName") || Doc.containsKey("Password")) return true;
+            }
+        }
+        catch (NullPointerException e){
+
+        }
+        finally {
+            System.out.print("Enter UserName for admin account : ");
+            Document admin = new Document("UserName",Mysc.next());
+            System.out.print("Enter Password for admin account : ");
+            admin.put("Password",Mysc.next());
+            collection.insertOne(admin);
+            return true;
         }
 
 
-        System.out.print("Enter UserName for admin account : ");
-        Document admin = new Document("UserName",Mysc.next());
-        System.out.print("Enter Password for admin account : ");
-        admin.put("Password",Mysc.next());
-        collection.insertOne(admin);
-        return true;
+
+
     }
 
 }
