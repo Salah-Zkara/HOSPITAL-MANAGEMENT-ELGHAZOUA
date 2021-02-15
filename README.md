@@ -7,8 +7,8 @@
     + [MongoDB setup](#MongoDB-setup)
   * [Execution](#execution)
     + [GUI](#gui)
-      - [ Windows](#--windows-(cmd))
-      - [ Linux](#--linux-(terminal))
+      - [ Windows](#--windows-cmd)
+      - [ Linux](#--linux-terminal)
   * [Links](#links)
 ## Download
 To Download this software clone this repository or download it as a zip.
