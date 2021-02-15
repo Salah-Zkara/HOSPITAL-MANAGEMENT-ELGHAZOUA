@@ -36,8 +36,8 @@ The Best way to use this software is to use [MongoDB Atlas](https://www.mongodb.
 
 ![Connection String](https://github.com/Salah-Zkara/HOSPITAL-MANAGEMENT/blob/main/src/Images/7.png)
 
-- paste your database informations in **"./connection.txt"** like the follow: **"mongodb+srv://test:<password>@cluster0.6sjns.mongodb.net/<dbname>?retryWrites=true&w=majority"**.
-- replace \**<password>**\ with your **password** and **<dbname>** with your **database name**.
+- paste your database informations in **"./connection.txt"** like the follow: **`mongodb+srv://test:<password>@cluster0.6sjns.mongodb.net/<dbname>?retryWrites=true&w=majority`**.
+- replace **`<password>`** with your **password** and **`<dbname>`** with your **database name**.
 
 ## Execution
 
