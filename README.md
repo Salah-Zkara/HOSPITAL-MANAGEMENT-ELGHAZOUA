@@ -3,7 +3,7 @@
 - [HOSPITAL-MANAGEMENT](#HOSPITAL-MANAGEMENT)
   * [Download](#download)
   * [Requirements](#requirements)
-    + [Install other modules](#install-other-modules)
+    + [Install Java](#install-java)
     + [MongoDB setup](#MongoDB-setup)
   * [Execution](#execution)
     + [GUI](#gui)
@@ -22,11 +22,8 @@ cd HOSPITAL-MANAGEMENT
 For this software, you need to have [Java SE Development Kit 11.0.10 (LTS)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) installed on your system.
 
 
-
-
-
 ### MongoDB setup
-The Best way to use this software is to use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) free tier (500Mo is more than enough for this software), otherwise you can use local MongoDB database.
+The Best way to use this software is to use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) free tier (500Mo is more than enough for this software), otherwise, you can use a local MongoDB database.
 - First of all, you have to create an account in the [cloud MongoDB platform](https://www.mongodb.com/cloud/atlas/register)
 - Choose the free plan
 
