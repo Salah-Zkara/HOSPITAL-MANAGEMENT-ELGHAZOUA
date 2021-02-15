@@ -38,7 +38,7 @@ The Best way to use this software is to use [MongoDB Atlas](https://www.mongodb.
 
 - paste your database informations in **"./connection.txt"** like the follow: 
 
-`mongodb+srv://test:`**`<password>`**`@cluster0.6sjns.mongodb.net/`**`<dbname>`**`?retryWrites=true&w=majority`.
+`mongodb+srv://test:<password>@cluster0.6sjns.mongodb.net/<dbname>?retryWrites=true&w=majority`.
 - replace **`<password>`** with your **password** and **`<dbname>`** with your **database name**.
 
 ## Execution
