@@ -1,0 +1,1 @@
+mongodb+srv://Salah:salah2001@hospitalcluster.dlcev.mongodb.net/hospital?retryWrites=true&w=majority

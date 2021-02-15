@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="HOSPITAL-MANAGEMENT:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HOSPITAL_MANAGEMENT_jar</output-path>
+    <root id="archive" name="HOSPITAL-MANAGEMENT.jar">
+      <element id="module-output" name="HOSPITAL-MANAGEMENT" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/3.11.0/mongodb-driver-sync-3.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/toedter/jcalendar/1.4/jcalendar-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/bson/3.11.0/bson-3.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.11.0/mongodb-driver-core-3.11.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
